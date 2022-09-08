@@ -2,6 +2,7 @@ __default__ :
         job-name      : "{rule}"
         output        : "logs/{rule}/{wildcards}.out"
         ntasks        : 1
+        nNode         : 1
         cpus-per-task : 1
         mem           : "200M"
         time          : "00-00:05:00"
