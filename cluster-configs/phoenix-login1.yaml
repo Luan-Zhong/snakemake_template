@@ -1,3 +1,3 @@
 __default__ :
-        account       : waite
-        partition     : batch
+        account       : biosci
+        partition     : batch,skylack,icelake,highmem
